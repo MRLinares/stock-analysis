@@ -11,3 +11,11 @@ Code was written to format a table to provide information that is easily accessi
 ![Example_Empty_Table](https://user-images.githubusercontent.com/108758105/183268838-0af21f2e-4684-4eb3-8e2e-c42ef62bdc28.png)
 
 Buttons were programmed so that the client would never have to open a developer tab and deal with macros.  The buttons are designed to run an analysis for a desired year, highlight the returns so that negative returns are red and positive returns are green, remove the highlights for optical preferences, and to reset the entire worksheet, respectively.
+
+
+
+
+
+
+### Challenges
+When dealing with fractions of seconds, it is difficult to truly understand how big of an impact a single line of code can have.  Much of my process was trial and error trhough different strategies sourced on Google.
