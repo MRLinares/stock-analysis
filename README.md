@@ -6,7 +6,7 @@ Data for financial stocks were downloaded and filtered for twelve select stocks.
 
 ![Example_Empty_Table](https://user-images.githubusercontent.com/108758105/183268838-0af21f2e-4684-4eb3-8e2e-c42ef62bdc28.png)
 
-Buttons were programmed so that the client would never have to open a developer tab in Microsoft Excel and operate macros.  The buttons are designed to run an analysis for a desired year, highlight the returns so that negative returns are red and positive returns are green, remove the highlights for optical preferences, and to reset the entire table, respectively.
+Buttons were programmed so that the client would never have to open a developer tab in Microsoft Excel and operate macros, though a macro-enabled file would have to opened to operate the functions.  The buttons are designed to run an analysis for a desired year, highlight the returns so that negative returns are red and positive returns are green, remove the highlights for optical preferences, and to reset the entire table, respectively.
 
 When pressing the "Run Analysis" button, an input box will appear requesting the year to analyze
 
