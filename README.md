@@ -20,8 +20,11 @@ Entering a year not within the dataset returns an error message
 
 ![Example_error](https://user-images.githubusercontent.com/108758105/183269430-734e04a1-daa2-4444-afb9-e1f30e04ef89.png)
 
+Finally, after a correct year is entered, a message box displays the amount of time it took the program to perform the task.  Below is an example of the time for the original code written before refactoring.
 
+![Original_Code_Run](https://user-images.githubusercontent.com/108758105/183269664-dd166459-f3da-455b-8cb8-f94b05142139.png)
 
+While that is definitely fast, it is based on the program searching data for twelve stocks.  As datasets become increasingly larger, the efficiency at which a program can operate becomes more crucial, so optimizing it at it's simplest form is necessary in order to "future-proof" the code. 
 
 ### Challenges
 When dealing with fractions of seconds, it is difficult to truly understand how big of an impact a single line of code can have.  Much of my process was trial and error trhough different strategies sourced on Google.
