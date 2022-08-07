@@ -30,4 +30,8 @@ While that is definitely fast, it is based on the program searching data for twe
 
 
 ### Challenges
-When dealing with fractions of seconds, it is difficult to truly understand how big of an impact a single line of code can have.  Much of my process was trial and error through different strategies sourced on Google.  An added challenge is that of refactoring already written code.  The program, as described above, was not as clean and polished as it is now.
+When dealing with fractions of seconds, it is difficult to truly understand how big of an impact a single line of code can have.  Much of my process was trial and error through different strategies sourced on Google.  An added challenge is that of refactoring already written code.  The program, as described above, was not as clean and polished as it is now, in fact, the code ran slower than the intial run of my original code.
+
+![1st_Run_2018](https://user-images.githubusercontent.com/108758105/183270054-95bccb7b-f4d8-4045-ae0f-d44ffbe01279.png)
+
+It was challenging finding ways to speed up the process while not only keeping the functionality, but adding user friendly function and simplification.
