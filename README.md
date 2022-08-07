@@ -24,7 +24,10 @@ Finally, after a correct year is entered, a message box displays the amount of t
 
 ![Original_Code_Run](https://user-images.githubusercontent.com/108758105/183269664-dd166459-f3da-455b-8cb8-f94b05142139.png)
 
-While that is definitely fast, it is based on the program searching data for twelve stocks.  As datasets become increasingly larger, the efficiency at which a program can operate becomes more crucial, so optimizing it at it's simplest form is necessary in order to "future-proof" the code. In the search for program optimization, I came across a site [Eident Training]https://eident.co.uk/2016/03/top-ten-tips-to-speed-up-your-vba-code/ that was instrumental in my successs.
+While that is definitely fast, it is based on the program searching data for twelve stocks.  As datasets become increasingly larger, the efficiency at which a program can operate becomes more crucial, so optimizing it at it's simplest form is necessary in order to "future-proof" the code. In the search for program optimization, I came across a site [Eident Training]https://eident.co.uk/2016/03/top-ten-tips-to-speed-up-your-vba-code/ that was instrumental in my successs and I was able to improve significant time.
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/108758105/183270004-4995e92e-adab-4642-b181-13bc5a495b10.png) ![VBA_Challenge_2018](https://user-images.githubusercontent.com/108758105/183270009-6ee2a035-d7a3-4078-9d02-29c5e1d47bfa.png)
+
 
 ### Challenges
-When dealing with fractions of seconds, it is difficult to truly understand how big of an impact a single line of code can have.  Much of my process was trial and error trhough different strategies sourced on Google.
+When dealing with fractions of seconds, it is difficult to truly understand how big of an impact a single line of code can have.  Much of my process was trial and error through different strategies sourced on Google.  An added challenge is that of refactoring already written code.  The program, as described above, was not as clean and polished as it is now.
