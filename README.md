@@ -22,10 +22,14 @@ Entering a year not within the dataset returns an error message
 
 Finally, after a correct year is entered, a message box displays the amount of time it took the program to perform the task.  Below is an example of the time for the original code written before refactoring.
 
+
+#### Original Code
 ![Original_Code_Run](https://user-images.githubusercontent.com/108758105/183269664-dd166459-f3da-455b-8cb8-f94b05142139.png)
 
 While that is definitely fast, it is based on the program searching data for twelve stocks.  As datasets become increasingly larger, the efficiency at which a program can operate becomes more crucial, so optimizing it at it's simplest form is necessary in order to "future-proof" the code. In the search for program optimization, I came across a site [Eident Training]https://eident.co.uk/2016/03/top-ten-tips-to-speed-up-your-vba-code/ that was instrumental in my successs and I was able to improve significant time.
 
+
+#### Refactored Code
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/108758105/183270004-4995e92e-adab-4642-b181-13bc5a495b10.png) ![VBA_Challenge_2018](https://user-images.githubusercontent.com/108758105/183270009-6ee2a035-d7a3-4078-9d02-29c5e1d47bfa.png)
 
 
@@ -35,3 +39,13 @@ When dealing with fractions of seconds, it is difficult to truly understand how 
 ![1st_Run_2018](https://user-images.githubusercontent.com/108758105/183270054-95bccb7b-f4d8-4045-ae0f-d44ffbe01279.png)
 
 It was challenging finding ways to speed up the process while not only keeping the functionality, but adding user friendly function and simplification.
+
+The most significant boost to performance, I found, was that of the With/End With statements.  Rather than repeating If then statements for the same cell, the "with" statement speeds up the process by allowing the computer to process the commands simultaneously for a given cell or range.
+
+
+#### Original Code
+![Screen Shot 2022-08-08 at 10 53 02 AM](https://user-images.githubusercontent.com/108758105/183447990-bba831c9-8c97-49a6-a53a-462e5fb279ee.png) 
+
+
+#### Refactored Code
+![Screen Shot 2022-08-08 at 10 52 17 AM](https://user-images.githubusercontent.com/108758105/183447997-151ca383-f203-42e1-96eb-d2e5135d4bfb.png)![Screen Shot 2022-08-08 at 10 52 34 AM](https://user-images.githubusercontent.com/108758105/183447993-f7a5a978-edf0-472b-b1bb-30c7ec4ae1e2.png)![Screen Shot 2022-08-08 at 10 59 39 AM](https://user-images.githubusercontent.com/108758105/183448744-90303c19-676a-45a8-8ba6-e596ecb4b892.png)
