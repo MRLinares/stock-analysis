@@ -20,26 +20,27 @@ Entering a year not within the dataset returns an error message
 
 ![Example_error](https://user-images.githubusercontent.com/108758105/183269430-734e04a1-daa2-4444-afb9-e1f30e04ef89.png)
 
-Finally, after a correct year is entered, a message box displays the amount of time it took the program to perform the task.  Below is an example of the time for the original code written before refactoring.
+Finally, after a correct year is entered, a message box displays the amount of time it took the program to perform the task.  Below is an example of the time for the original code written before receiving new code that needed refactoring.
 
 
 #### Original Code
 ![Original_Code_Run](https://user-images.githubusercontent.com/108758105/183269664-dd166459-f3da-455b-8cb8-f94b05142139.png)
 
-While that is definitely fast, it is based on the program searching data for twelve stocks.  As datasets become increasingly larger, the efficiency at which a program can operate becomes more crucial, so optimizing it at it's simplest form is necessary in order to "future-proof" the code. In the search for program optimization, I came across a site [Eident Training]https://eident.co.uk/2016/03/top-ten-tips-to-speed-up-your-vba-code/ that was instrumental in my successs and I was able to improve significant time.
+While that is definitely fast, it is based on the program searching data for twelve stocks.  As datasets become increasingly larger, the efficiency at which a program can operate becomes more crucial, so optimizing it at it's simplest form is necessary in order to "future-proof" the code. In the search for program optimization, I came across a site [Eident Training]https://eident.co.uk/2016/03/top-ten-tips-to-speed-up-your-vba-code/ that was instrumental to my successs in optimizing the code (see conclusion).
 
-
-#### Refactored Code
-![VBA_Challenge_2017](https://user-images.githubusercontent.com/108758105/183270004-4995e92e-adab-4642-b181-13bc5a495b10.png) ![VBA_Challenge_2018](https://user-images.githubusercontent.com/108758105/183270009-6ee2a035-d7a3-4078-9d02-29c5e1d47bfa.png)
 
 
 ### Challenges
 
-  Refactoring code refers to taking code already written and cleaning it up, improving its functionality and/or performance.  The advantages of this is that there is already a framework put in place for the program to run.  If it is written in a form easy on the eyes, then one could deduce, precisley, the code's itentions and can make their improvements with a lot of information to begin with.  Unfortunately, this isn't always the case.  According to [BMC Blogs]https://www.bmc.com/blogs/code-refactoring-explained/ sometimes code is written in a rush to wrap up a sprint and release the product; while the code may function as intended, it may have performance issues or may be written in a way that needs cleaning up.  Receiving code like this drastically increases ambiguity and one may have to go through hours of debugging to get the code right.
+Refactoring code refers to taking code already written and cleaning it up, improving its functionality and/or performance.  The advantages of this is that there is already a framework put in place for the program to run.  If it is written in a form easy on the eyes, then one could deduce, precisley, the code's itentions and can make their improvements with a lot of information to begin with.  
+
+Unfortunately, this isn't always the case.  According to [BMC Blogs]https://www.bmc.com/blogs/code-refactoring-explained/ sometimes code is written in a rush to wrap up a sprint and release the product; while the code may function as intended, it may have performance issues or may be written in a way that needs cleaning up.  Receiving code like this drastically increases ambiguity and one may have to go through hours of debugging to get the code right.
   
 #### Applications to this Project
 
 When dealing with fractions of seconds, it is difficult to truly understand how big of an impact a single line of code can have.  Much of my process involved trial and error through different strategies sourced on Google.  An added challenge is that of refactoring code.  The program, as described above, was not as clean and polished as it is now, in fact, the code ran slower than the intial run of my original code.
+
+#### Refactored Code (Before Improvements)
 
 ![1st_Run_2018](https://user-images.githubusercontent.com/108758105/183270054-95bccb7b-f4d8-4045-ae0f-d44ffbe01279.png)
 
@@ -52,9 +53,16 @@ The most significant boost to performance, I found, was that of the With/End Wit
 ![Screen Shot 2022-08-08 at 10 53 02 AM](https://user-images.githubusercontent.com/108758105/183447990-bba831c9-8c97-49a6-a53a-462e5fb279ee.png) 
 
 
-#### Refactored Code
+#### Refactored Code (Post Improvements)
 ![Screen Shot 2022-08-08 at 10 52 17 AM](https://user-images.githubusercontent.com/108758105/183447997-151ca383-f203-42e1-96eb-d2e5135d4bfb.png)
 ![Screen Shot 2022-08-08 at 10 52 34 AM](https://user-images.githubusercontent.com/108758105/183447993-f7a5a978-edf0-472b-b1bb-30c7ec4ae1e2.png)
 ![Screen Shot 2022-08-08 at 10 59 39 AM](https://user-images.githubusercontent.com/108758105/183448744-90303c19-676a-45a8-8ba6-e596ecb4b892.png)
 
-As you can see from the screenshots from the timestamps, comparing them will show a roughly 25% improvement in speed.
+
+### Conclusion
+
+I was able to improve the system performance by roughly 25% and increase it's user functionality via the buttons discussed at the beginning.
+
+#### After Refactoring
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/108758105/183270004-4995e92e-adab-4642-b181-13bc5a495b10.png) ![VBA_Challenge_2018](https://user-images.githubusercontent.com/108758105/183270009-6ee2a035-d7a3-4078-9d02-29c5e1d47bfa.png)
+
