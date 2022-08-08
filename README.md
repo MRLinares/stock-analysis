@@ -34,7 +34,12 @@ While that is definitely fast, it is based on the program searching data for twe
 
 
 ### Challenges
-When dealing with fractions of seconds, it is difficult to truly understand how big of an impact a single line of code can have.  Much of my process was trial and error through different strategies sourced on Google.  An added challenge is that of refactoring already written code.  The program, as described above, was not as clean and polished as it is now, in fact, the code ran slower than the intial run of my original code.
+
+  Refactoring code refers to taking code already written and cleaning it up, improving its functionality and/or performance.  The advantages of this is that there is already a framework put in place for the program to run.  If it is written in a form easy on the eyes, then one could deduce, precisley, the code's itentions and can make their improvements with a lot of information to begin with.  Unfortunately, this isn't always the case.  According to [BMC Blogs]https://www.bmc.com/blogs/code-refactoring-explained/ sometimes code is written in a rush to wrap up a sprint and release the product; while the code may function as intended, it may have performance issues or may be written in a way that needs cleaning up.  Receiving code like this drastically increases ambiguity and one may have to go through hours of debugging to get the code right.
+  
+#### Applications to this Project
+
+When dealing with fractions of seconds, it is difficult to truly understand how big of an impact a single line of code can have.  Much of my process involved trial and error through different strategies sourced on Google.  An added challenge is that of refactoring code.  The program, as described above, was not as clean and polished as it is now, in fact, the code ran slower than the intial run of my original code.
 
 ![1st_Run_2018](https://user-images.githubusercontent.com/108758105/183270054-95bccb7b-f4d8-4045-ae0f-d44ffbe01279.png)
 
