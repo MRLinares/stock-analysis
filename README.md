@@ -48,4 +48,6 @@ The most significant boost to performance, I found, was that of the With/End Wit
 
 
 #### Refactored Code
-![Screen Shot 2022-08-08 at 10 52 17 AM](https://user-images.githubusercontent.com/108758105/183447997-151ca383-f203-42e1-96eb-d2e5135d4bfb.png)![Screen Shot 2022-08-08 at 10 52 34 AM](https://user-images.githubusercontent.com/108758105/183447993-f7a5a978-edf0-472b-b1bb-30c7ec4ae1e2.png)![Screen Shot 2022-08-08 at 10 59 39 AM](https://user-images.githubusercontent.com/108758105/183448744-90303c19-676a-45a8-8ba6-e596ecb4b892.png)
+![Screen Shot 2022-08-08 at 10 52 17 AM](https://user-images.githubusercontent.com/108758105/183447997-151ca383-f203-42e1-96eb-d2e5135d4bfb.png)
+![Screen Shot 2022-08-08 at 10 52 34 AM](https://user-images.githubusercontent.com/108758105/183447993-f7a5a978-edf0-472b-b1bb-30c7ec4ae1e2.png)
+![Screen Shot 2022-08-08 at 10 59 39 AM](https://user-images.githubusercontent.com/108758105/183448744-90303c19-676a-45a8-8ba6-e596ecb4b892.png)
