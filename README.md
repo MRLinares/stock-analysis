@@ -46,7 +46,7 @@ When dealing with fractions of seconds, it is difficult to truly understand how 
 
 It was challenging finding ways to speed up the process while not only keeping the functionality, but adding user friendly function and simplification.
 
-The most significant boost to performance, I found, was that of the With/End With statements.  Rather than repeating If then statements for the same cell, the "with" statement speeds up the process by allowing the computer to process the commands simultaneously for a given cell or range.
+The most significant boost to performance, I initially thought, was that of the With/End With statements.  Rather than repeating If then statements for the same cell, the "with" statement speeds up the process by allowing the computer to process the commands simultaneously for a given cell or range.
 
 
 #### Original Code
@@ -61,8 +61,16 @@ The most significant boost to performance, I found, was that of the With/End Wit
 
 ### Conclusion
 
-I was able to improve the system performance by roughly 25% and increase it's user functionality via the buttons discussed at the beginning.
+The main factor slowing down my code, however, was the nested loop.  In my original code, I initialized my volume to zero after I started my for loops  (that loop over all the rows) rather than before, essentially creating a nested loop.  By remedying this one piece of code, I drastically improved my code.
+
+
+Initially, I was able to improve the system performance by roughly 25% and increase it's user functionality via the buttons discussed at the beginning.
 
 #### After Refactoring
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/108758105/183270004-4995e92e-adab-4642-b181-13bc5a495b10.png) ![VBA_Challenge_2018](https://user-images.githubusercontent.com/108758105/183270009-6ee2a035-d7a3-4078-9d02-29c5e1d47bfa.png)
+
+After the upgrade, though I was able to achieve over 90% improvement!
+
+![VBA_Challenge_2017_2](https://user-images.githubusercontent.com/108758105/183800281-bea5a0fb-9f40-4328-9a87-15b0c4ca7703.png)![VBA_Challenge_2018_2](https://user-images.githubusercontent.com/108758105/183800299-a7497720-d0ed-4d1b-8f98-aabed92e2809.png)
+
 
