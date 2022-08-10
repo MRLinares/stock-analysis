@@ -71,6 +71,6 @@ Initially, I was able to improve the system performance by roughly 25% and incre
 
 After the upgrade, though I was able to achieve over 90% improvement!
 
-![VBA_Challenge_2017_2](https://user-images.githubusercontent.com/108758105/183800281-bea5a0fb-9f40-4328-9a87-15b0c4ca7703.png)![VBA_Challenge_2018_2](https://user-images.githubusercontent.com/108758105/183800299-a7497720-d0ed-4d1b-8f98-aabed92e2809.png)
+![VBA_Challenge_2017_2](https://user-images.githubusercontent.com/108758105/183800281-bea5a0fb-9f40-4328-9a87-15b0c4ca7703.png)  ![VBA_Challenge_2018_2](https://user-images.githubusercontent.com/108758105/183800299-a7497720-d0ed-4d1b-8f98-aabed92e2809.png)
 
 
